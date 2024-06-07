@@ -1,17 +1,8 @@
-function skillMember() {
-    var member = {
-        name: "John",
-        age: 25,
-        skills: ["C++", "Java", "Python"],
-        address: {
-            city: "New York",
-            state: "NY"
-        },
+function skillsMember() {
+    return {
+        skills: ['React', 'Angular', 'Vue', 'Node', 'Express', 'Mongo', 'Postgres'],
         getSkills: function() {
             return this.skills;
-            
         }
-    };
-
-    return member;
+    }
 }

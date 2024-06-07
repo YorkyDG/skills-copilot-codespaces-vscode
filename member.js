@@ -9,6 +9,7 @@ function skillMember() {
         },
         getSkills: function() {
             return this.skills;
+            
         }
     };
 
